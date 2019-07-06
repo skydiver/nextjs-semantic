@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "eslint.autoFixOnSave": true
+}
