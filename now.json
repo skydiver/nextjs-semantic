@@ -1,7 +1,11 @@
 {
   "version": 2,
+  "name": "next-starters",
   "builds": [
-    { "src": "next.config.js", "use": "@now/next" }
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
   ],
   "routes": [
     {
@@ -16,5 +20,8 @@
         "cache-control": "public,max-age=0,must-revalidate"
       }
     }
+  ],
+  "alias": [
+    "next-semantic-starter.now.sh"
   ]
 }
