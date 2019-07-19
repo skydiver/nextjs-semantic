@@ -10,7 +10,9 @@
     "start": "next start",
     "now-build": "npm run semantic:build && next build",
     "semantic:build": "cd .semantic && gulp build-css build-assets",
-    "semantic:watch": "cd .semantic && npm run semantic:build && gulp watch"
+    "semantic:watch": "cd .semantic && npm run semantic:build && gulp watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",

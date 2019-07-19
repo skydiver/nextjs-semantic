@@ -9,7 +9,7 @@ const StyledContainer = styled.div`
   align-items: center;
 `;
 
-const Home = () =>
+const Home = () => (
   <StyledContainer>
     <div>
       <h1>Next.js + Semantic UI!</h1>
@@ -19,6 +19,5 @@ const Home = () =>
       <Button secondary>Secondary</Button>
     </div>
   </StyledContainer>
-;
-
+);
 export default Home;
