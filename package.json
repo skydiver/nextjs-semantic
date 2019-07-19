@@ -1,7 +1,7 @@
 {
   "name": "nextjs-semantic",
   "description": "Next.js + Semantic UI + Styled Components",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": "Martín M.",
   "license": "MIT",
   "scripts": {
