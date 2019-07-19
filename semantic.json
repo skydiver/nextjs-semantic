@@ -16,7 +16,7 @@
     "clean": "dist/"
   },
   "permission": false,
-  "autoInstall": false,
+  "autoInstall": true,
   "rtl": false,
   "components": [
     "reset",
@@ -32,7 +32,6 @@
     "label",
     "list",
     "loader",
-    "placeholder",
     "rail",
     "reveal",
     "segment",
@@ -50,25 +49,30 @@
     "item",
     "statistic",
     "accordion",
+    "calendar",
     "checkbox",
     "dimmer",
     "dropdown",
     "embed",
     "modal",
     "nag",
+    "placeholder",
     "popup",
     "progress",
+    "slider",
     "rating",
     "search",
     "shape",
     "sidebar",
     "sticky",
     "tab",
+    "text",
+    "toast",
     "transition",
     "api",
     "form",
     "state",
     "visibility"
   ],
-  "version": "2.4.2"
+  "version": "2.7.6"
 }
