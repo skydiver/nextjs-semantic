@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "next": "^9.0.2",
+    "next": "^9.0.3",
     "next-compose-plugins": "^2.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -25,18 +25,18 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
-    "eslint": "^6.0.1",
+    "eslint": "^6.1.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-wesbos": "0.0.19",
     "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.6.1",
     "file-loader": "^4.1.0",
-    "fomantic-ui": "^2.7.6",
+    "fomantic-ui": "^2.7.7",
     "prettier": "^1.18.2",
     "url-loader": "^2.1.0"
   }
