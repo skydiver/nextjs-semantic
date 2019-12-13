@@ -12,7 +12,7 @@ const StyledContainer = styled.div`
 const Home = () => (
   <StyledContainer>
     <div>
-      <h1>Next.js + Semantic UI!</h1>
+      <h1>Next.js + Fomantic-UI!</h1>
     </div>
     <div>
       <Button primary>Primary</Button>
