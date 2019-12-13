@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "next-starters",
+  "name": "next-semantic-starter.now.sh",
   "builds": [
     {
       "src": "next.config.js",
@@ -20,8 +20,5 @@
         "cache-control": "public,max-age=0,must-revalidate"
       }
     }
-  ],
-  "alias": [
-    "next-semantic-starter.now.sh"
   ]
 }
