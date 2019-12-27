@@ -36,7 +36,7 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
     "file-loader": "^4.1.0",
-    "fomantic-ui": "^2.8.2",
+    "fomantic-ui": "^2.8.3",
     "prettier": "^1.19.1",
     "url-loader": "^3.0.0"
   }
