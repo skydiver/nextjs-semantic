@@ -1,6 +1,4 @@
 {
-  "version": 2,
-  "name": "next-semantic-starter.now.sh",
   "builds": [
     {
       "src": "next.config.js",
