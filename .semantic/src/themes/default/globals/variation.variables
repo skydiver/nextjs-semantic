@@ -207,6 +207,7 @@
 /* Text */
 @variationTextInverted: true;
 @variationTextDisabled: true;
+@variationTextStates: true;
 @variationTextSizes: @variationAllSizes;
 
 
@@ -366,6 +367,7 @@
 @variationAccordionFluid: true;
 
 /* Calendar */
+@variationCalendarInverted: true;
 @variationCalendarDisabled: true;
 
 /* Checkbox */
@@ -412,6 +414,7 @@
 @variationDropdownFluid: true;
 @variationDropdownFloating: true;
 @variationDropdownPointing: true;
+@variationDropdownScrollhint: true;
 @variationDropdownSizes: @variationAllSizes;
 
 /* Embed */
