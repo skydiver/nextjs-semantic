@@ -3,7 +3,15 @@
 
 
 ## Notice
-Since version 2.0.0, Semantic UI was replaced by Fomantic-UI.
+Since version 2.0.0 (of this package), Semantic UI was replaced by Fomantic-UI.
+
+
+## Current Versions
+* Next.js 10.0
+* React 17.0
+* Fomantic-UI 2.8
+* Styled Components 5.2
+
 
 ## Setup
 1. clone repo
@@ -35,5 +43,5 @@ Here are some reasons for the change:
 If you still want to use Semantic UI, switch to `v1.1.0` branch.
 
 
-## Deploy to Now
-Just run `now` on project dir.
+## Deploy to Vercel
+Just run `vercel` on project dir.
