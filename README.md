@@ -40,7 +40,7 @@ Here are some reasons for the change:
 * Adds more components
 * Fixes several security vulnerabilities
 
-If you still want to use Semantic UI, switch to `v1.1.0` branch.
+If you still want to use Semantic UI, get release [1.1.0](https://github.com/skydiver/nextjs-semantic/releases/tag/1.1.0)
 
 
 ## Deploy to Vercel
