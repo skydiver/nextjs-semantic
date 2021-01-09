@@ -3,6 +3,7 @@ import { Container, Grid } from 'semantic-ui-react';
 import { AutoField, AutoForm, SubmitField } from 'uniforms-semantic';
 import { createSchemaBridge } from './_uniforms';
 import { withRouter } from 'next/router';
+import Registration from '../usecases/Registration';
 
 function ManualFormPage({ router, request, schema }) {
   console.log({ request });
@@ -36,29 +37,12 @@ function ManualFormPage({ router, request, schema }) {
 }
 export default withRouter(ManualFormPage);
 
-export async function getServerSideProps({ query }) {
-  const schema = {
-    title: 'Guest',
-    type: 'object',
-    properties: {
-      firstName: { type: 'string', minLength: 1 },
-      lastName: { type: 'string', minLength: 1 },
-      workExperience: {
-        description: 'Work experience in years',
-        type: 'integer',
-        minimum: 0,
-        maximum: 100
-      },
-      zip: { type: 'string', pattern: '[0-9]{5}' },
-      color: { type: 'string', enum: ['red', 'amber', 'green'] }
-    },
-    required: ['firstName', 'lastName']
-  };
-  const request = query;
-
+export async function getServerSideProps({ query: request }) {
+  const usecase = new Registration();
   const props = {
-    schema,
-    request
+    request,
+    response: await usecase.process(request),
+    schema: usecase.getSchema(request)
   };
   return { props };
 }
