@@ -1,5 +1,5 @@
 # nextjs-semantic
-> Next.js + ~Semantic UI~ Fomantic-UI + Styled Components
+> Next.js + ~Semantic UI~ Fomantic-UI + Styled Components + Uniforms
 
 
 ## Notice
