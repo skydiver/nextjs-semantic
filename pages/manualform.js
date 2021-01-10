@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid } from 'semantic-ui-react';
 import { AutoField, AutoForm, SubmitField } from 'uniforms-semantic';
-import { createSchemaBridge } from './_uniforms';
+import { createSchemaBridge } from '../libs/uniforms';
 import { withRouter } from 'next/router';
 import Registration from '../usecases/Registration';
 
