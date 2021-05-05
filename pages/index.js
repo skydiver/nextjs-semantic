@@ -11,6 +11,11 @@ const StyledContainer = styled.div`
   div {
     margin: 10px 0 10px 0;
   }
+
+  .footer {
+    padding: 20px;
+    border-top: solid 1px #aaa;
+  }
 `;
 
 const Home = () => (
@@ -28,6 +33,11 @@ const Home = () => (
       <Icon name="heart" size="big" />
       <Icon name="ambulance" size="big" />
       <Icon name="lightbulb" size="big" />
+    </div>
+    <div className="footer">
+      <a href="https://github.com/skydiver/nextjs-semantic/">
+        https://github.com/skydiver/nextjs-semantic/
+      </a>
     </div>
   </StyledContainer>
 );
