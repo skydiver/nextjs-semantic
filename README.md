@@ -1,5 +1,5 @@
-# nextjs-semantic
-> Next.js + ~Semantic UI~ Fomantic-UI + Styled Components
+
+![Logo](https://banners.beyondco.de/nextjs-semantic.png?theme=light&packageManager=&packageName=&pattern=charlieBrown&style=style_1&description=Next.js+%2B+Fomantic-UI+%2B+Styled+Components&md=1&showWatermark=0&fontSize=100px&images=sparkles&widths=auto)
 
 
 ## Notice
@@ -7,10 +7,10 @@ Since version 2.0.0 (of this package), Semantic UI was replaced by Fomantic-UI.
 
 
 ## Current Versions
-* Next.js 10.0
+* Next.js 10.2
 * React 17.0
 * Fomantic-UI 2.8
-* Styled Components 5.2
+* Styled Components 5.3
 
 
 ## Setup
