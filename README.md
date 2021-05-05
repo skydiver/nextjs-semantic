@@ -43,5 +43,5 @@ Here are some reasons for the change:
 If you still want to use Semantic UI, get release [1.1.0](https://github.com/skydiver/nextjs-semantic/releases/tag/1.1.0)
 
 
-## Deploy to Vercel
-Just run `vercel` on project dir.
+## Deploy with Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fskydiver%2Fnextjs-semantic%2F&project-name=nextjs-semantic-demo)
