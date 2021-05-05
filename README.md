@@ -1,5 +1,5 @@
-# nextjs-semantic
-> Next.js + ~Semantic UI~ Fomantic-UI + Styled Components
+
+![Logo](https://banners.beyondco.de/nextjs-semantic.png?theme=light&packageManager=&packageName=&pattern=charlieBrown&style=style_1&description=Next.js+%2B+Fomantic-UI+%2B+Styled+Components&md=1&showWatermark=0&fontSize=100px&images=sparkles&widths=auto)
 
 
 ## Notice
@@ -7,10 +7,10 @@ Since version 2.0.0 (of this package), Semantic UI was replaced by Fomantic-UI.
 
 
 ## Current Versions
-* Next.js 10.0
+* Next.js 10.2
 * React 17.0
 * Fomantic-UI 2.8
-* Styled Components 5.2
+* Styled Components 5.3
 
 
 ## Setup
@@ -43,5 +43,5 @@ Here are some reasons for the change:
 If you still want to use Semantic UI, get release [1.1.0](https://github.com/skydiver/nextjs-semantic/releases/tag/1.1.0)
 
 
-## Deploy to Vercel
-Just run `vercel` on project dir.
+## Deploy with Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fskydiver%2Fnextjs-semantic%2F&project-name=nextjs-semantic-demo)
