@@ -29,7 +29,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "fomantic-ui": "^2.8.7",
+    "fomantic-ui": "^2.8.8",
     "inquirer": "^7.3.3",
     "prettier": "^2.3.0",
     "url-loader": "^4.1.1"
