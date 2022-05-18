@@ -7,7 +7,7 @@ Since version 2.0.0 (of this package), Semantic UI was replaced by Fomantic-UI.
 
 
 ## Current Versions
-* Next.js 11
+* Next.js 12
 * React 17
 * Fomantic-UI 2.8
 * Styled Components 5.3
